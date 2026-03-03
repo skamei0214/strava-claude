@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+cd ~/projects/strava-claude
+
+echo "Syncing Strava activities..."
+python3 strava_sync.py
+
+echo ""
+echo "Starting Claude analysis..."
+claude "Analyze my recent training data from activities.txt"
