@@ -2,8 +2,6 @@
 
 A personal MCP (Model Context Protocol) server that gives Claude access to your Strava training data. Built for use with Claude.ai and the Claude mobile app.
 
-> **Personal project.** This is not affiliated with Strava or Anthropic. For a more fully-featured open-source Strava MCP, see [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp).
-
 ---
 
 ## What it does
